@@ -1,0 +1,48 @@
+.formulaire {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulaire label {
+  margin: 0;
+}
+#reset {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.formulaire label,
+.formulaire input {
+  width: 200px;
+}
+
+#inscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.favoris p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.favoris div {
+  padding: 5px;
+}
+.courriel {
+  text-align: center;
+}
+.courriel label {
+  font-weight: bold;
+  font-style: italic;
+}
+.courriel p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#reset_courriel {
+  margin-left: 20px;
+}

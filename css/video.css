@@ -1,0 +1,10 @@
+.youtube {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.youtube iframe {
+  margin: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}

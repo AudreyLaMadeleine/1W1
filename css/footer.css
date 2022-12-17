@@ -1,0 +1,14 @@
+#footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  width: 1000px;
+}
+.liens a {
+  color: red;
+}
+.liens {
+  text-align: center;
+}

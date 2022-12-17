@@ -1,0 +1,10 @@
+#galerie img {
+  border: 5px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+}
+#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

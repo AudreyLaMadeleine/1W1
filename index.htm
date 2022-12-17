@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAOTIC</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/galerie.css" class="css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#article">Article</a>
+      <a href="#tableau"> Tableau</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#video">Video</a>
+      <a href="#footer">Pied de page</a>
+    </nav>
+    <section id="accueil">
+      <h2>TP2</h2>
+      <h1>KAOTIC: Les spectacles 2023</h1>
+      <h3>Autrice: Audrey La Madeleine</h3>
+      <p>
+        1W1 - Mise en page Web - Techniques d'intégration multimédia - Collège
+        de Maisonneuve
+      </p>
+    </section>
+    <!--//////////////////////////////// Inscription //////////////////////////////-->
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <form class="formulaire">
+        <label for="txt_prenom">Votre prénom</label>
+        <input type="text" name="txt_prenom" id="txt_prenom" />
+        <label for="txt_nom">Votre nom</label>
+        <input type="text" name="txt_nom" id="txt_nom" />
+        <input type="reset" value="éffacer" id="reset" />
+      </form>
+      <div>
+        <form class="favoris">
+          <p>Quelle est votre chanteur préféré parmi ceux-ci?</p>
+          <div>
+            <input type="radio" name="fav_chanteur" id="clinton" />
+            <label for="clinton">Clinton Kane</label>
+          </div>
+          <div>
+            <input type="radio" name="fav_chanteur" id="camylio" />
+            <label for="camylio">Camylio</label>
+          </div>
+          <div>
+            <input type="radio" name="fav_chanteur" id="dean" />
+            <label for="dean">Dean Lewis</label>
+          </div>
+          <div>
+            <input type="radio" name="fav_chanteur" id="alex" />
+            <label for="alex">Alexander Stewart</label>
+          </div>
+          <div><input type="reset" value="éffacer" /></div>
+        </form>
+      </div>
+      <form class="courriel">
+        <p>
+          Entrez votre adresse courriel pour recevoir les plus récentes
+          notifications du monde de la musique.
+        </p>
+        <label for="courriel">Adresse courriel</label>
+        <input type="email" name="courriel" id="courriel" />
+        <input type="reset" value="éffacer" id="reset_courriel" />
+      </form>
+      <form>
+        <input type="submit" value="envoyer" />
+      </form>
+    </section>
+    <section id="article">
+      <h1>Article</h1>
+      <!--/////////////////////////////////////Premiere image////////////////////////////////////-->
+      <article class="principal">
+        <div>
+          <h2>Clinton Kane</h2>
+          <p>
+            Clinton Kane est un auteur-compositeur-interprète australien, signé
+            chez Columbia Records . Ses singles de 2021 " Chicken Tendies " et "
+            I Guess I'm in Love " ont atteint respectivement les numéros 88 et
+            90 sur le Billboard Hot 100 américain , cette dernière chanson
+            culminant également au numéro 25 en Australie et au numéro 22 au
+            Royaume-Uni. Kane réside actuellement à Las Vegas
+          </p>
+        </div>
+        <figure>
+          <img src="images/clinton_kane.jpg" alt="" />
+          <figcaption>Clinton Kane</figcaption>
+        </figure>
+      </article>
+      <!--//////////////////////////Deuxieme image////////////////////////////////-->
+      <article class="principal">
+        <div>
+          <h2>Camylio</h2>
+          <p>
+            Star des médias sociaux et chanteur pop qui est surtout reconnu pour
+            son compte camylio TikTok où il publie des couvertures et de la
+            musique originale. Ses fans l'ont propulsé à plus de 4,2 millions
+            d'abonnés TikTok. Ses chansons originales les plus connues incluent
+            le single "Back to Basics" de 2020 et le single "ghost me" de 2021.
+          </p>
+        </div>
+        <figure>
+          <img src="images/camylio.jpg" alt="" />
+          <figcaption>Camylio</figcaption>
+        </figure>
+      </article>
+    </section>
+    <section id="tableau">
+      <h1>Prochaine tournée</h1>
+      <table class="mon_tableau">
+        <tr>
+          <th>Artistes</th>
+          <th>Nationalité</th>
+          <th>Prochain concert</th>
+          <th>où?</th>
+        </tr>
+        <tr>
+          <td>Clinton Kane</td>
+          <td>Australien</td>
+          <td>25 Mars 2023</td>
+          <td>Montréal, Canada</td>
+        </tr>
+        <tr>
+          <td>Camylio</td>
+          <td>Américain</td>
+          <td>12 Août 2023</td>
+          <td>Toronto, Canada</td>
+        </tr>
+        <tr>
+          <td>Dean Lewis</td>
+          <td>Australien</td>
+          <td>4 Octobre 2023</td>
+          <td>Paris, France</td>
+        </tr>
+        <tr>
+          <td>Alexander Stewart</td>
+          <td>Irlandais</td>
+          <td>2 mai 2023</td>
+          <td>Los Angeles, États-Unis</td>
+        </tr>
+      </table>
+    </section>
+    <section id="galerie">
+      <h1>Galerie</h1>
+      <figure>
+        <img src="images/alex_1.jpg" alt="" /><img
+          src="images/alex_2.jpg"
+          alt=""
+        /><img src="images/alex_3.jpg" alt="" /><img
+          src="images/alex_stewart.jpeg"
+          alt=""
+        /><img src="images/camylio.jpg" alt="" />
+      </figure>
+      <figure>
+        <img src="images/dean_1.jpeg" alt="" /><img
+          src="images/camylio_2.jfif"
+          alt=""
+        /><img src="images/clinton_3.jpg" alt="" /><img
+          src="images/clinton_1.jpg"
+          alt=""
+        /><img src="images/clinton_2.jpg" alt="" />
+      </figure>
+    </section>
+    <section id="video">
+      <h1>Vidéos</h1>
+      <div class="youtube">
+        <iframe
+          width="250"
+          height="200"
+          src="https://www.youtube.com/embed/xHToYaAfWfI"
+          title="Clinton Kane - Chicken Tendies (Lyrics)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="200"
+          src="https://www.youtube.com/embed/t_ES2WaBgiY"
+          title="Alexander Stewart - When You Love Someone (Lyrics)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="200"
+          src="https://www.youtube.com/embed/jvpY3cdwfyo"
+          title="Alexander Stewart - Echo (Lyrics)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="200"
+          src="https://www.youtube.com/embed/n0ok2T1rojk"
+          title="Alexander Stewart - blame's on me (Lyrics)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="200"
+          src="https://www.youtube.com/embed/MxyLLb7Dt0s"
+          title="Clinton Kane - GO TO HELL (Lyrics)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section id="footer">
+      <h1>Footer</h1>
+      <div class="description">
+        <h2>Description du programme</h2>
+        <p>
+          Au cours de ta formation, tu apprendras à identifier, analyser,
+          imaginer, réaliser et coordonner différents projets numériques et les
+          différentes étapes de production qui y sont liées : La médiatisation –
+          Créer ou modifier des éléments graphiques et multimédias. La
+          conception –Concevoir le design et l’interactivité d’un projet
+          multimédia. L’intégration – Intégrer de façon cohérente et artistique
+          les composantes d’un projet interactif. L’environnement professionnel
+          – Développer une vision globale du multimédia et connaître
+          l’environnement de travail tant du point de vue technologique
+          qu’interpersonnel. Les logiciels – Photoshop, Illustrator, Maya (3D),
+          Unity, After Effects, etc. Les langages – HTML, CSS, JavaScript, SQL,
+          PHP, C#, etc
+        </p>
+      </div>
+      <div class="liens">
+        <h3>Liens importants</h3>
+        <a href="#https://www.cmaisonneuve.qc.ca/"
+          >https://www.cmaisonneuve.qc.ca/</a
+        >
+        <a href="#https://www.youtube.com/@Camylio"
+          >https://www.youtube.com/@Camylio</a
+        >
+        <a href="#">https://www.youtube.com/@ClintonKane</a>
+        <a href="#https://www.youtube.com/@AlexanderStewart"
+          >https://www.youtube.com/@AlexanderStewart</a
+        >
+        <a href="#https://www.youtube.com/@DeanLewis"
+          >https://www.youtube.com/@DeanLewis</a
+        >
+      </div>
+      <div class="sociaux">
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=facebook&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=github&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=instagram&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=messenger&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=paypal&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=twitter&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=youtube&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=wikipedia&amp;color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+      </div>
+      <form action="" class="recherche">
+        <input type="search" />
+        <img
+          src="https://s2.svgbox.net/materialui.svg?ic=search&amp;color=fff"
+          width="16"
+          height="16"
+        />
+      </form>
+      <p>
+        3800 R. Sherbrooke E, Montréal, QC H1X 2A2 | Technique d'intégration
+        multimédia | Collège Maisonneuve
+      </p>
+      <p>&copy;copyright | Privacy notice</p>
+    </section>
+  </body>
+</html>
